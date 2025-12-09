@@ -1,0 +1,49 @@
+<script>
+  import { onMount } from 'svelte';
+  
+  let isScrolled = false;
+
+  onMount(() => {
+    const handleScroll = () => {
+      isScrolled = window.scrollY > 10;
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  });
+</script>
+
+<header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 {isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+    <!-- Logo -->
+    <div class="flex-shrink-0 flex items-center">
+      <a href="/" class="text-2xl font-bold tracking-tight text-gray-900">
+        airops
+      </a>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex space-x-8">
+      <a href="#platform" class="text-sm font-medium text-gray-600 hover:text-gray-900">Platform</a>
+      <a href="#solutions" class="text-sm font-medium text-gray-600 hover:text-gray-900">Solutions</a>
+      <a href="#resources" class="text-sm font-medium text-gray-600 hover:text-gray-900">Resources</a>
+      <a href="#pricing" class="text-sm font-medium text-gray-600 hover:text-gray-900">Pricing</a>
+    </nav>
+
+    <!-- Right Side Actions -->
+    <div class="hidden md:flex items-center space-x-6">
+      <a href="#login" class="text-sm font-medium text-gray-600 hover:text-gray-900">Log In</a>
+      <a href="#start" class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-sm font-medium rounded-full text-black bg-brand-green hover:bg-brand-green-hover transition-colors">
+        Start Free Trial
+      </a>
+    </div>
+
+    <!-- Mobile menu button -->
+    <div class="md:hidden flex items-center">
+      <button class="text-gray-600 hover:text-gray-900 focus:outline-none">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
