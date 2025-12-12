@@ -4,8 +4,8 @@
 
 <section class="py-20 bg-white font-sans">
     <div class="max-w-7xl mx-auto px-4 text-center">
-        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-widest border border-gray-200 px-3 py-1.5 rounded-full bg-gray-50">Meet the AirOps Platform</span>
-        <h2 class="mt-8 text-5xl md:text-7xl font-serif-display text-gray-900 leading-tight">Where great <br/> brands go to drive <br/> growth</h2>
+        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-widest border border-gray-200 px-3 py-1.5 rounded-full bg-gray-50">How It Works</span>
+        <h2 class="mt-8 text-5xl md:text-7xl font-serif-display text-gray-900 leading-tight">From brand URL <br/> to high-converting ads <br/> in 4 simple steps</h2>
     </div>
     
     <!-- Tabbed interface image area -->
@@ -91,19 +91,23 @@
              </div>
         </div>
         
-        <!-- Bottom Grid of 3 items -->
-        <div class="grid md:grid-cols-3 gap-0 mt-0 border-x border-b border-gray-200 divide-x divide-gray-200 bg-white">
+        <!-- Bottom Grid of 4 items -->
+        <div class="grid md:grid-cols-4 gap-0 mt-0 border-x border-b border-gray-200 divide-x divide-gray-200 bg-white">
             <div class="p-6 flex items-start gap-4 hover:bg-gray-50 transition-colors cursor-pointer">
                 <div class="w-6 h-6 rounded-full border border-gray-300 flex-shrink-0 flex items-center justify-center text-xs font-mono">1</div>
-                <p class="text-xs text-gray-600 leading-relaxed">Gain deep intel into keywords, user intent, and traffic pricing. Influence your roadmap with real-time data.</p>
+                <p class="text-xs text-gray-600 leading-relaxed">Paste your website URL and let AI extract your brand identity instantly.</p>
             </div>
             <div class="p-6 flex items-start gap-4 hover:bg-gray-50 transition-colors cursor-pointer">
                 <div class="w-6 h-6 rounded-full border border-gray-300 flex-shrink-0 flex items-center justify-center text-xs font-mono">2</div>
-                <p class="text-xs text-gray-600 leading-relaxed">Surface opportunities on your owned content, external sites, and even Reddit threads on a regular cadence.</p>
+                <p class="text-xs text-gray-600 leading-relaxed">AI generates fresh ad concepts daily based on current trends and best performers.</p>
             </div>
             <div class="p-6 flex items-start gap-4 hover:bg-gray-50 transition-colors cursor-pointer">
                 <div class="w-6 h-6 rounded-full border border-gray-300 flex-shrink-0 flex items-center justify-center text-xs font-mono">3</div>
-                <p class="text-xs text-gray-600 leading-relaxed">Prioritize action items so you can start where to grow and complete more impactful tasks—you're aligned with what improves it.</p>
+                <p class="text-xs text-gray-600 leading-relaxed">Customize ads with built-in editor. No design skills needed.</p>
+            </div>
+            <div class="p-6 flex items-start gap-4 hover:bg-gray-50 transition-colors cursor-pointer">
+                <div class="w-6 h-6 rounded-full border border-gray-300 flex-shrink-0 flex items-center justify-center text-xs font-mono">4</div>
+                <p class="text-xs text-gray-600 leading-relaxed">Export optimized assets for Meta and AppLovin in one click.</p>
             </div>
         </div>
     </div>
